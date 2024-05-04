@@ -23,13 +23,7 @@ setup(
     url="https://github.com/jianfch/stable-ts",
     license="MIT",
     packages=find_packages(include=["stable_whisper", "stable_whisper.*"]),
-    install_requires=[
-        "numpy",
-        "torch",
-        "torchaudio",
-        "tqdm",
-        "openai-whisper==20231117"
-    ],
+    install_requires=[],
     entry_points={
         "console_scripts": ["stable-ts=stable_whisper.whisper_word_level:cli"],
     },
